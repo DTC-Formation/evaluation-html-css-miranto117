@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 .attribution { 
     font-size: 11px;
     text-align: center; 
@@ -9,5 +12,60 @@
 
 .body {
     margin: 0;
-    body: 0;git 
+    body: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contain {
+    width: 1000px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-list-menu {
+    display: flex;
+}
+
+ul.box-list-menu li {
+    list-style-type: none;
+    margin: 0px 20px;
+}
+
+ul.box-list-menu li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: hsl(236, 13%, 42%);
+    transition: all 0.3s;
+}
+
+ul.box-list-menu li a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.main-article {
+    width: 60%;
+}
+
+.new-article {
+    width: 40%;
+}
+
+.head-image img {
+    width: 100%;
+}
+
+.main-section {
+    display: flex;
+    fle
 }
